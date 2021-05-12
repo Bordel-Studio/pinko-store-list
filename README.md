@@ -24,13 +24,15 @@ filter-options='
 - **store-options**: oggetto di opzioni per il singolo store al quale posso aggiungere/modificare delle proprietà come:
 	- store name: si può prependere una qualsiasi stringa come per esempio "PINKO Boutique"
 	- store name: si può decidere se dopo questa stringa mandare a capo il name o meno con la prop "newLineAfterPrepend" settata a true
+	- store name: si può visualizzare tutto in maiuscolo con la prop "uppercase" settata a true
 	- è possibile modificare l'icona di maps e di whatsapp inserendo un url a piacere, se non verrà inserito non si vedrà l'icona
 ```
 store-options='
 {
   "store name": {
     "prepend": "PINKO Boutique",
-    "newLineAfterPrepend": true
+    "newLineAfterPrepend": true,
+    "uppercase": true
   },
   "maps": {
     "icon": "http://image.marketing.ext.pinko.it/lib/fe8b13727663017b73/m/12/7c449ec9-0c20-4a0d-94eb-d87b762ec48b.png"
