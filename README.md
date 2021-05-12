@@ -25,7 +25,7 @@ filter-options='
 	- store name: si può prependere una qualsiasi stringa come per esempio "PINKO Boutique"
 	- store name: si può decidere se dopo questa stringa mandare a capo il name o meno con la prop "newLineAfterPrepend" settata a true
 	- store name: si può visualizzare tutto in maiuscolo con la prop "uppercase" settata a true
-	- è possibile modificare l'icona di maps e di whatsapp inserendo un url a piacere, se non verrà inserito non si vedrà l'icona
+	- è possibile modificare l'icona lei links inserendo un url a piacere, se non verrà inserito non si vedrà l'icona
 ```
 store-options='
 {
@@ -39,6 +39,9 @@ store-options='
   },
   "whatsapp link": {
     "icon": "http://image.marketing.ext.pinko.it/lib/fe8b13727663017b73/m/12/09605836-f63c-4004-9268-5fb93a6aaf70.png"
+  },
+  "mail": {
+    "icon": "http://image.marketing.ext.pinko.it/lib/fe8b13727663017b73/m/12/9358edaf-ee6a-4b07-95bc-29cda6ca2eb5.png"
   }
 }'
 ```
